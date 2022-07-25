@@ -1,0 +1,5 @@
+.exchange-rates__currency {
+	text-transform: uppercase;
+	@include font (700, 15px, 120%);
+	margin-right: auto;
+}

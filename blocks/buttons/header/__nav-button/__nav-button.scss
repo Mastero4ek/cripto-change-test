@@ -1,0 +1,13 @@
+.header__nav-button {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	.header__nav-button {
+		display: block;
+	}
+
+	.header__nav-button:hover > .header__burger--color {
+		fill: #55C2FF;
+	}
+}

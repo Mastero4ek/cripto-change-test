@@ -1,0 +1,17 @@
+.hero__title {
+	@include font (700, 100px, 121%);
+	margin-bottom: 18px;
+}
+
+@media (max-width: 768px) {
+	.hero__title {
+		font-size: 60px;
+		margin-bottom: 12px;
+	}
+}
+
+@media (max-width: 320px) {
+	.hero__title {
+		font-size: 40px;
+	}
+}

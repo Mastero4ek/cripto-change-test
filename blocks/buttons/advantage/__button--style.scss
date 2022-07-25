@@ -1,0 +1,11 @@
+.advantage__button--style {
+	background: #68B7FF;
+	border-radius: 20px;
+	color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+	.advantage__button--style:hover {
+		background: #1C88EB;
+	}
+}

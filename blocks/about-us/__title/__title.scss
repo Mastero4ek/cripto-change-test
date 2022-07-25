@@ -1,0 +1,11 @@
+.about-us__title {
+	@include font (700, 44px, 120%);
+	margin-bottom: 34px;
+}
+
+@media (max-width: 768px) {
+	.about-us__title {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+}

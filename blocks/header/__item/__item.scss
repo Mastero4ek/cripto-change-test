@@ -1,0 +1,10 @@
+.header__item:not(:last-child) {
+	margin-right: 43px;
+}
+
+@media (max-width: 480px) {
+	.header__item:not(:last-child) {
+		margin-right: 0;
+		margin-bottom: 19px;
+	}
+}

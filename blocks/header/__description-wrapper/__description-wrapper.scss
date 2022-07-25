@@ -1,0 +1,29 @@
+.header__description-wrapper {
+	padding: 20px 50px;
+	margin: 0 auto;
+	//display: none;
+}
+
+.header__description-wrapper > p {
+	font-family: 'IBM Plex Sans', sans-serif;
+	@include font (300, 16px, 131%);
+	text-align: center;
+	color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+	.header__description-wrapper {
+		padding: 21px 30px 24px 30px;
+	}
+
+	.header__description-wrapper > p {
+		font-size: 12px;
+		line-height: 133%;
+	}
+}
+
+@media (max-width: 320px) {
+	.header__description-wrapper {
+		padding: 14px 10px 15px 10px;
+	}
+}

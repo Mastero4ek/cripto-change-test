@@ -1,0 +1,9 @@
+.header__link {
+	@include font (400, 18px, 122%);
+}
+
+@media (max-width: 320px) {
+	.header__link {
+		font-size: 16px;
+	}
+}

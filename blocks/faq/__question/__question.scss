@@ -1,0 +1,15 @@
+.faq__question {
+	@include font (400, 26px, 119%);
+}
+
+@media (max-width: 768px) {
+	.faq__question {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 320px) {
+	.faq__question {
+		font-size: 16px;
+	}
+}

@@ -1,0 +1,16 @@
+.active {
+	display: flex;
+}
+
+.active__button {
+	display: block;
+}
+
+.header__navigation-open {
+	transform: translateY(calc(100% - 1px));
+}
+
+.noscroll {
+	overflow: hidden !important;
+	height: 100% !important;
+}

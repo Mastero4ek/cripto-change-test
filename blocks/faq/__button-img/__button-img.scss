@@ -1,0 +1,11 @@
+.faq__button-img {
+	width: 25px;
+	height: 18px;
+}
+
+@media (max-width: 320px) {
+	.faq__button-img {
+		width: 17px;
+		height: 11px;
+	}
+}

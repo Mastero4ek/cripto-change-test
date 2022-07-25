@@ -1,0 +1,10 @@
+.faq {
+	padding-top: 0;
+	padding-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+	.faq {
+		padding-bottom: 30px;
+	}
+}

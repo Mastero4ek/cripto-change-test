@@ -1,0 +1,4 @@
+.footer__copyright {
+	grid-area: copyright;
+	@include font (400, 12px, 130%);
+}

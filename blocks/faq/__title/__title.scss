@@ -1,0 +1,11 @@
+.faq__title {
+	@include font (700, 44px, 120%);
+	margin-bottom: 34px;
+}
+
+@media (max-width: 768px) {
+	.faq__title {
+		font-size: 30px;
+		margin-bottom: 18px;
+	}
+}

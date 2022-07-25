@@ -1,0 +1,9 @@
+.footer__link {
+	@include font (400, 18px, 122%);
+}
+
+@media (max-width: 320px) {
+	.footer__link {
+		font-size: 14px;
+	}
+}

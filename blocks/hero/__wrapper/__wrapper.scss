@@ -1,0 +1,25 @@
+.hero__wrapper {
+	padding-top: 127px;
+	padding-bottom: 127px;
+}
+
+@media (max-width: 1024px) {
+	.hero__wrapper {
+		padding-top: 92px;
+		padding-bottom: 92px;
+	}
+}
+
+@media (max-width: 768px) {
+	.hero__wrapper {
+		padding-top: 81px;
+		padding-bottom: 81px;
+	}
+}
+
+@media (max-width: 320px) {
+	.hero__wrapper {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}

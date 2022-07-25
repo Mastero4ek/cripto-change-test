@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="icon" href="">
+
+	<link rel="stylesheet" href="css/style.css">
+	
+	<script defer src="js/script.js"></script>
+
+	<title>CriptoChange</title>
+</head>
+
+<body>
+	<header class="header header--color">
+		<div class="header__description-wrapper header__description-wrapper--color">
+			<p>Данный сайт создан только в учебных целях. На нем не производится покупка или обмен криптовалюты</p>
+		</div>
+
+		<div class="header__wrapper header__wrapper--backcolor container">
+			<div class="header__logo">
+				<a href="#" class="header__logo-img">
+					<img src="img/header/logo.svg" alt="#">
+				</a>
+			</div>
+
+			<nav class="header__navigation header__navigation--color">
+				<ul class="header__nav">
+					<li class="header__item">
+						<a href="#about-us" class="header__link header__link--color">Почему выбирают нас?</a>
+					</li>
+
+					<li class="header__item">
+						<a href="#faq" class="header__link header__link--color">Частые вопросы</a>
+					</li>
+				</ul>
+			</nav>
+
+			<button type="button" class="header__nav-button" aria-label="Открыть меню">
+				<svg class="icon header__burger header__burger--color">
+  					<use xlink:href="img/icon.svg#burger"></use>
+				</svg>
+			</button>
+		</div>
+	</header>
+
+	<main class="main">
+		<section class="hero hero--backstyle">
+			<div class="hero__wrapper container">
+				<h1 class="hero__title hero__title--color">Crypto</h1>
+
+				<p class="hero__subtitle hero__subtitle--color">Ваш самый надежный сервис обмена криптовалюты</p>
+
+				<button type="button" class="button button--style hero__button">Зарегистрироваться!</button>
+			</div>
+		</section>
+
+		<section class="about-us container" id="about-us">
+			<h2 class="about-us__title about-us__title--color">Почему выбирают нас?</h2>
+
+			<div class="about-us__wrapper">
+				<div class="about-us__advantage advantage">
+					<ul class="advantage__list-btn">
+						<li class="advantage__item advantage__item--active">
+							<button class="advantage__button advantage__button--style  advantage__button--active">Удобство</button>
+						</li>
+
+						<li class="advantage__item">
+							<button class="advantage__button advantage__button--style">Скорость</button>
+						</li>
+
+						<li class="advantage__item">
+							<button class="advantage__button advantage__button--style">Качество</button>
+						</li>
+
+						<li class="advantage__item">
+							<button class="advantage__button advantage__button--style">Надежность</button>
+						</li>
+					</ul>
+
+					<ul class="advantage__list-content">
+						<li class="advantage__item-content advantage__item-content--active">
+							<div class="advantage__img">
+								<img src="img/advantage/convenience.svg" alt="#">
+							</div>
+
+							<p class="advantage__text">Наш сервис обмена криптовалюты Crypto интуитивно понятен и удобен в использовании. С нами просто.</p>
+						</li>
+						<li class="advantage__item-content">
+							<div class="advantage__img">
+								<img src="img/advantage/speed.svg" alt="#">
+							</div>
+
+							<p class="advantage__text">У нас самая быстрая скорость по обмену криптовалюты по подобным сервисам в России</p>
+						</li>
+						<li class="advantage__item-content">
+							<div class="advantage__img">
+								<img src="img/advantage/quality.svg" alt="#">
+							</div>
+
+							<p class="advantage__text">Нашу платформу выбирают миллионы людей</p>
+						</li>
+						<li class="advantage__item-content">
+							<div class="advantage__img">
+								<img src="img/advantage/security.svg" alt="#">
+							</div>
+
+							<p class="advantage__text">Ваши пароли под надежной защитой. Нас невозможно взломать</p>
+						</li>
+					</ul>
+				</div>
+
+				<div class="about-us__exchange-rates exchange-rates exchange-rates--style">
+					<h3 class="exchange-rates__title exchange-rates__title--color">Изменение курса в режиме реального времени</h3>
+
+					<ul class="exchange-rates__list">
+						<li class="exchange-rates__item exchange-rates__item--color exchange-rates__item--up">
+							<span class="exchange-rates__currency">rub/aud</span>
+							<span class="exchange-rates__value">25.59</span>
+						</li>
+						<li class="exchange-rates__item exchange-rates__item--color exchange-rates__item--up">
+							<span class="exchange-rates__currency">hkd/byr</span>
+							<span class="exchange-rates__value">27.76</span>
+						</li>
+						<li class="exchange-rates__item exchange-rates__item--color exchange-rates__item--down">
+							<span class="exchange-rates__currency">aud/cnh</span>
+							<span class="exchange-rates__value">72.68</span>
+						</li>
+						<li class="exchange-rates__item exchange-rates__item--color exchange-rates__item--up">
+							<span class="exchange-rates__currency">jpy/gbp</span>
+							<span class="exchange-rates__value">32.96</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="faq container" id="faq">
+			<h2 class="faq__title faq__title--color">Частые вопросы</h2>
+
+			<div class="faq__wrapper">
+				<ul class="faq__list">
+					<li class="faq__item faq__item--style">
+						<div class="faq__question faq__question--style">Как обменивать монеты?</div>
+
+						<div class="faq__answer">
+							<p class="faq__dropdown faq__dropdown--color">Вы можете обменять любую поддерживаемую монету, следуя этим простым <a class="faq__link faq__link--color" href="#">шагам</a></p>
+						</div>
+
+						<button type="button" class="faq__button">
+							<svg class="icon faq__button-img faq__button-img--color">
+								<use xlink:href="img/icon.svg#arrow"></use>
+							</svg>
+						</button>
+					</li>
+
+					<li class="faq__item faq__item--style">
+						<div class="faq__question faq__question--style">Как долго ждать обмен?</div>
+
+						<div class="faq__answer">
+							<p class="faq__dropdown faq__dropdown--color">Каждая транзакция на Changelly проходит в три этапа. Обычно это занимает 5-30 минут. Если транзакция занимает больше времени, это может быть связано с несколькими факторами. Чтобы узнать причину задержки, необходимо определить на каком этапе она произошла. Пройдите на страницу История, найдите сделку, с которой возникли проблемы, и посмотрите ее статус.</p>
+						</div>
+
+						<button type="button" class="faq__button">
+							<svg class="icon faq__button-img faq__button-img--color">
+								<use xlink:href="img/icon.svg#arrow"></use>
+							</svg>
+						</button>
+					</li>
+
+					<li class="faq__item faq__item--style">
+						<div class="faq__question faq__question--style">Как пользоваться платформой?</div>
+
+						<div class="faq__answer">
+							<p class="faq__dropdown faq__dropdown--color">После регистрации вам будет доступна <a class="faq__link faq__link--color" href="#">база знаний Crypto,</a> в которой вы сможете ознакомится с подробными инструкциями по работе с платформой</p>
+						</div>
+
+						<button type="button" class="faq__button">
+							<svg class="icon faq__button-img faq__button-img--color">
+								<use xlink:href="img/icon.svg#arrow"></use>
+							</svg>
+						</button>
+					</li>
+
+					<li class="faq__item faq__item--style">
+						<div class="faq__question faq__question--style faq__question--active">Как вывести деньги на карту?</div>
+
+						<div class="faq__answer faq__answer--show">
+							<p class="faq__dropdown faq__dropdown--color">Для того, чтобы вывести деньги на карту, необходимо прикрепить нужную карту к нашей платформе. Вывод денег доступен с 10:00 до 18:00 МСК в рабочие дни</p>
+						</div>
+
+						<button type="button" class="faq__button">
+							<svg class="icon faq__button-img faq__button-img--color faq__button-img--active">
+								<use xlink:href="img/icon.svg#arrow"></use>
+							</svg>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer footer--color">
+		<div class="footer__wrapper container">
+			<div class="footer__logo">
+				<a href="#" class="footer__logo-img">
+					<img src="img/header/logo.svg" alt="#">
+				</a>
+			</div>
+
+			<div class="footer__navigation">
+				<ul class="footer__nav">
+					<li class="footer__item">
+						<a href="#about-us" class="footer__link footer__link--color">Почему выбирают нас?</a>
+					</li>
+
+					<li class="footer__item">
+						<a href="#faq" class="footer__link footer__link--color">Частые вопросы</a>
+					</li>
+				</ul>
+			</div>
+
+			<p class="footer__copyright footer__copyright--color">© Crypto, 2022</p>
+
+			<div class="footer__design">
+				<a class="footer__design-text footer__design-text--color" href="https://t.me/@Mrshmallowww">@Mrshmallowww</a>
+			</div>
+		</div>
+	</footer>
+
+	<div class="overlay">
+		<div class="modal">
+			<div class="modal__wrapper modal__wrapper--style">
+				<h2 class="modal__title modal__title--color">Мгновенная регистрация на платформе</h2>
+
+				<form class="modal__form">
+					<fieldset class="modal__person">
+						<label class="modal__label modal__label--color">Имя
+							<input type="text" class="modal__input modal__input--style" name="name">
+						</label>
+
+						<label class="modal__label modal__label--color">Фамилия
+							<input type="text" class="modal__input modal__input--style" name="surname">
+						</label>
+
+						<label class="modal__label modal__label--color">Номер телефона
+							<input type="text" class="modal__input modal__input--style" name="tel">
+						</label>
+					</fieldset>
+
+					<button type="submit" class="button button--style form__button-order">Зарегистрироваться!</button>
+				</form>
+
+				<button type="button" class="form__button-close">
+					<svg class="icon form__button-cross form__button-cross--style">
+  						<use xlink:href="img/icon.svg#close-btn"></use>
+					</svg>
+				</button>
+			</div>
+		</div>									
+	</div>
+	
+</body>
+
+</html>

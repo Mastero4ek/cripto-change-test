@@ -1,0 +1,10 @@
+.faq__button-img--color {
+	fill: #08475E;
+}
+
+@media (min-width: 768px) {
+	.faq__item:hover > .faq__button > .faq__button-img--color {
+		transition: fill .2s ease-in-out;
+		fill: #55C2FF;
+	}
+}

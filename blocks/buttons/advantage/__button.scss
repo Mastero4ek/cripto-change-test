@@ -1,0 +1,19 @@
+.advantage__button {
+	@include font (700, 22px, 123%);
+	padding: 10px 0;
+	width: 180px;
+	text-align: center;
+}
+
+@media (max-width: 860px) {
+	.advantage__button {
+		font-size: 16px;
+		width: 160px;
+	}
+}
+
+@media (max-width: 320px) {
+	.advantage__button {
+		width: 140px;
+	}
+}

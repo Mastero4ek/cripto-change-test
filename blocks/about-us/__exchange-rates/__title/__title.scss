@@ -1,0 +1,6 @@
+.exchange-rates__title {
+	font-family: 'IBM Plex Sans', sans-serif;
+	@include font (300, 18px, 120%);
+	margin-bottom: 20px;
+	max-width: 353px;
+}

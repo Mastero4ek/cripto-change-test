@@ -1,0 +1,15 @@
+.advantage__button--active {
+	position: relative;
+	background: #68B7FF;
+	border-radius: 20px;
+}
+
+.advantage__button--active:after {
+	content: '';
+	position: absolute;
+	border: 2px solid #1C88EB;
+	border-radius: 20px;
+	width: 100%;
+	height: 100%;
+	inset: 0;
+}

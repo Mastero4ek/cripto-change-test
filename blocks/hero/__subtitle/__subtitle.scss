@@ -1,0 +1,26 @@
+.hero__subtitle {
+	font-family: 'IBM Plex Sans', sans-serif;
+	@include font (300, 22px, 132%);
+	max-width: 480px;
+	margin-bottom: 50px;
+}
+
+@media (max-width: 1024px) {
+	.hero__subtitle {
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 768px) {
+	.hero__subtitle {
+		font-size: 16px;
+		margin-bottom: 24px;
+		max-width: 354px;
+	}
+}
+
+@media (max-width: 320px) {
+	.hero__subtitle {
+		max-width: 230px;
+	}
+}

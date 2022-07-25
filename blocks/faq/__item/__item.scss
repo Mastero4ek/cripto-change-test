@@ -1,0 +1,30 @@
+.faq__item {
+	position: relative;
+	padding: 15px 33px;
+	cursor: pointer;
+	height: auto;
+}
+
+.faq__item:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+	.faq__item {
+		padding: 16px 32px 25px 32px;
+	}
+
+	.faq__item:not(:last-child) {
+		margin-bottom: 14px;
+	}
+}
+
+@media (max-width: 320px) {
+	.faq__item {
+		padding: 9px;
+	}
+
+	.faq__item:not(:last-child) {
+		margin-bottom: 10px;
+	}
+}

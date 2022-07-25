@@ -1,0 +1,19 @@
+.advantage__item-content {
+	display: none;
+	align-items: center;
+	justify-content: center;
+}
+
+@media (max-width: 768px) {
+	.advantage__item-content {
+		max-width: 560px;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 320px) {
+	.advantage__item-content {
+		flex-direction: column;
+		align-items: center;
+	}
+}

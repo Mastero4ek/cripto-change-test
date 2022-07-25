@@ -1,0 +1,18 @@
+.footer__wrapper {
+	padding-top: 40px;
+	padding-bottom: 42px;
+	display: grid;
+	gap: 30px 10px;
+	grid-template-areas: "logo nav nav"
+						 "copyright . design";
+}
+
+@media (max-width: 320px) {
+	.footer__wrapper {
+		padding-top: 31px;
+		padding-bottom: 31px;
+		grid-template-areas: "logo nav"
+						 	 "copyright design";
+		gap: 39px 36px;
+	}
+}

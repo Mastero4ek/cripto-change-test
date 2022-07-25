@@ -1,0 +1,9 @@
+.faq__link--color {
+	color: #55C2FF;
+}
+
+@media (min-width: 768px) {
+	.faq__link--color:hover {
+		text-decoration: underline;
+	}
+}

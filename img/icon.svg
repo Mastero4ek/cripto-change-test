@@ -1,0 +1,13 @@
+<svg width="0" height="0">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 18" id="burger">
+    <path d="M.5 18h27v-3H.5v3zm0-7.5h27v-3H.5v3zM.5 0v3h27V0H.5z"></path>
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" id="close-btn">
+    <path d="M14 0C6.2 0 0 6.2 0 14s6.2 14 14 14 14-6.2 14-14S21.8 0 14 0zm5.4 21L14 15.6 8.6 21 7 19.4l5.4-5.4L7 8.6 8.6 7l5.4 5.4L19.4 7 21 8.6 15.6 14l5.4 5.4-1.6 1.6z"></path>
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 14" id="arrow">
+    <path d="M11.5 14L22.325.5H.675L11.5 14z"></path>
+  </symbol>
+</svg>

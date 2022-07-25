@@ -1,0 +1,28 @@
+.faq__dropdown {
+	font-family: 'IBM Plex Sans', sans-serif;
+	@include font (300, 22px, 132%);
+	max-width: 1047px;
+	padding-top: 18px;
+}
+
+@media (max-width: 1024px) {
+	.faq__dropdown {
+		max-width: 647px;
+	}
+}
+
+@media (max-width: 768px) {
+	.faq__dropdown {
+		font-size: 14px;
+		line-height: 128%;
+		max-width: 547px;
+		padding-top: 14px;
+	}
+}
+
+@media (max-width: 320px) {
+	.faq__dropdown {
+		max-width: 270px;
+		padding-top: 10px;
+	}
+}

@@ -1,0 +1,12 @@
+.hero__button {
+	@include font (500, 14px, 121.5%);
+	text-align: center;
+	padding: 11px 41px;
+}
+
+@media (max-width: 320px) {
+	.hero__button {
+		padding: 10px 30px;
+		font-size: 12px;
+	}
+}
