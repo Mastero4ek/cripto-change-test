@@ -92,7 +92,7 @@ const advantageBtns = document.querySelectorAll('.advantage__button'),
 
 //exchange
 
-const exchangeList = document.querySelector('.exchange-rates__list'),
+/*const exchangeList = document.querySelector('.exchange-rates__list'),
 	  socket = new WebSocket('ws://web-socket-current.herokuapp.com');
 	  
 const renderExchange = (wrapper, data) => {
@@ -124,7 +124,7 @@ const renderExchange = (wrapper, data) => {
 
 	socket.addEventListener('error', err => {
 		console.log(err);
-	});
+	});*/
 
 //accordion
 
