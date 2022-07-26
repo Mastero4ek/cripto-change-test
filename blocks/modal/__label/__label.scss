@@ -6,3 +6,15 @@
 .modal__label:not(:last-child) {
 	margin-right: 16px;
 }
+
+@media (max-width: 768px) {
+	.modal__label {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.modal__label:not(:last-child) {
+		margin-bottom: 14px;
+		margin-right: 0;
+	}
+}

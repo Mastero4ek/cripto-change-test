@@ -5,3 +5,13 @@
 	margin-bottom: 27px;
 	padding: 0;
 }
+
+@media (max-width: 768px) {
+	.modal__person {
+		flex-direction: column;
+		margin-bottom: 20px;
+		width: 100%;
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+}

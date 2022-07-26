@@ -5,3 +5,10 @@
 	max-width: 400px;
 	margin-bottom: 22px;
 }
+
+@media (max-width: 768px) {
+	.modal__title {
+		font-size: 22px;
+		margin-bottom: 15px;
+	}
+}

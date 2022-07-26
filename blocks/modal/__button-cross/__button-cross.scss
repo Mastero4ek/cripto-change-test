@@ -5,3 +5,9 @@
 	top: 16px;
 	right: 16px;
 }
+
+@media (max-width: 768px) {
+	.form__button-cross {
+		display: none;
+	}
+}

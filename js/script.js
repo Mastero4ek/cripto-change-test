@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded', () => {
+
 //header-menu
 
 const headerNavBtn = document.querySelector('.header__nav-button'),
@@ -167,4 +167,3 @@ const faqList = document.querySelector('.faq__list'),
       });
     }
   });
-});

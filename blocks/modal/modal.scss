@@ -15,3 +15,10 @@
 	visibility: visible;
 	opacity: 1;
 }
+
+@media (max-width: 768px) {
+	.modal {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
