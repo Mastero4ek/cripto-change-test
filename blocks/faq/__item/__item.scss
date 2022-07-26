@@ -19,6 +19,12 @@
 	}
 }
 
+@media (max-width: 460px) {
+	.faq__item {
+		padding-right: 60px;
+	}
+}
+
 @media (max-width: 320px) {
 	.faq__item {
 		padding: 9px;
