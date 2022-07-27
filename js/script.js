@@ -13,6 +13,9 @@ const headerNavBtn = document.querySelector('.header__nav-button'),
 const overlay = document.querySelector('.overlay'),
 	  modal = document.querySelector('.modal'),
 	  closeBtn = document.querySelector('.form__button-close'),
+	  body = document.querySelector('body'),
+	  clientWidth = document.documentElement.clientWidth,//видимая ширина экрана
+      innerWidth = window.innerWidth;//полная ширина экрана
 	  heroBtn = document.querySelector('.hero__button');
 
 	  overlay.style.transitionDuration = '0.36s';
@@ -22,6 +25,8 @@ const overlay = document.querySelector('.overlay'),
 	  	overlay.classList.add('overlay-open');
 	  	modal.classList.add('modal-open');
 	  	heroBtn.classList.add('button--active');
+	  	body.classList.add('noscroll');
+        body.style.paddingRight = innerWidth - clientWidth + 'px';//добавляем padding = ширине вертикального скролла
 	  });
 
 	  overlay.addEventListener('click', (e) => {
@@ -30,6 +35,8 @@ const overlay = document.querySelector('.overlay'),
 	  			overlay.classList.remove('overlay-open');
 	  			modal.classList.remove('modal-open');
 	  			heroBtn.classList.remove('button--active');
+	  			body.classList.remove('noscroll');
+	  			body.style.paddingRight = null;//обнуляем padding
 	  		}
 	  });
 
@@ -37,8 +44,16 @@ const overlay = document.querySelector('.overlay'),
 
 const form = document.querySelector('form'),
 	  modalTitle = document.querySelector('.modal__title'),
+	  spinner = document.querySelector('.spinner'),
 	  formBtnClose = document.querySelector('.form__button-close'),
 	  formBtnOrder = document.querySelector('.form__button-order');
+
+formBtnOrder.addEventListener('click', () => {
+	spinner.style.display = 'flex';
+	formBtnOrder.classList.add('button--disabled');
+	formBtnOrder.classList.remove('button--style');
+	formBtnOrder.setAttribute('disabled', '');
+});
 
 form.addEventListener('submit', (e) => {
 	e.preventDefault();

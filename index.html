@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="icon" href="">
+	<link rel="icon" href="img/favicon.ico">
 
 	<link rel="stylesheet" href="css/style.css">
 	
@@ -250,7 +250,10 @@
 						</label>
 					</fieldset>
 
-					<button type="submit" class="button button--style form__button-order">Зарегистрироваться!</button>
+					<button type="submit" class="button button--style form__button-order">
+						<div class="spinner spinner--style"></div>
+							Зарегистрироваться!
+					</button>
 				</form>
 
 				<button type="button" class="form__button-close">
@@ -258,6 +261,10 @@
   						<use xlink:href="img/icon.svg#close-btn"></use>
 					</svg>
 				</button>
+
+				<div class="load">
+					<div class="load__bounce load__bounce--style"></div>
+				</div>
 			</div>
 		</div>									
 	</div>

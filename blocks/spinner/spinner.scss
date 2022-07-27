@@ -1,0 +1,23 @@
+.spinner {
+	position: absolute;
+	top: 37.5%;
+	left: 7.5%;
+	transform: translate(0, -50%);
+	width: 10px;
+	height: 10px;
+	animation: bounce 1s ease-in-out infinite both;
+	transform: scale(0);
+	opacity: 1;
+	display: none;
+}
+
+@keyframes bounce {
+	0% {
+		transform: scale(0);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(2.5);
+		opacity: 0;
+	}
+}
