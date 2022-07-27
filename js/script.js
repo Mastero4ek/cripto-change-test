@@ -1,4 +1,3 @@
-
 //header-menu
 
 const headerNavBtn = document.querySelector('.header__nav-button'),
